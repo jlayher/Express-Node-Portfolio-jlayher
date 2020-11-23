@@ -1,0 +1,60 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Public API Requests",
+            "description": "A site that generates an employee directory using third party API Requests",
+            "technologies": [
+                "JavaCript",
+                "Express",
+                "Pug",
+                "HTML",
+                "CSS"
+            ],
+            "live_link": "link to live version of project",
+            "github_link": "",
+            "image_urls": [
+                "file-path-to-img-001",
+                "file-path-to-img-002",
+                "file-path-to-img-003",
+                "file-path-to-img-004"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "Object-Oriented Programming 'Phrase Hunter' Game",
+            "description": "A browser based, word guessing game using JavaScript, and Object-Oriented Programming",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "live_link": "link to live version of project",
+            "github_link": "https://github.com/jlayher/JS-Project-4.git",
+            "image_urls": [
+                "file-path-to-img-001",
+                "file-path-to-img-002",
+                "file-path-to-img-003",
+                "file-path-to-img-004"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "An interactice form for client-side users",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "live_link": "link to live version of project",
+            "github_link": "https://github.com/jlayher/JS-Project-3.git",
+            "image_urls": [
+                "file-path-to-img-001",
+                "file-path-to-img-002",
+                "file-path-to-img-003",
+                "file-path-to-img-004"
+            ]
+        }
+    ]
+}
