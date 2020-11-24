@@ -18,11 +18,11 @@ app.get('/about', (req, res) =>{
 
 //dynamic project route
 //issues here with the project routes
-app.get(`/project/:id`, (req, res) => {
-    const projectId = req.params.id;
-    const project = projects.find( ({id}) => id === +projectId);
+app.get('/project/:id', (req, res) => {
+    const {id} = req.params;
+    const project = projects[id];
 
-    res.render(`project/${id}`, {project});
+    res.render('project', {project});
 });
 
 app.listen(3000, ()=>{
