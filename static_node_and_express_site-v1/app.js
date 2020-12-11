@@ -4,8 +4,10 @@ const {projects} = require('./data.json');
 const path = require('path');
 
 app.set('view engine', 'pug');
-// app.use('/static', express.static('public'));
-// app.use('/images', express.static('images'));
+
+//this or the stuff below
+//app.use('/static', express.static('public'));
+//app.use('/images', express.static('images'));
 
 app.use("/static", express.static(path.join(__dirname, "/public")));
 app.use("/images", express.static(path.join(__dirname, "/images/")));

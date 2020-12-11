@@ -14,10 +14,9 @@
             "live_link": "link to live version of project",
             "github_link": "https://github.com/jlayher/JS-Project-5-Public-API-Requests",
             "image_urls": [
-                "public/images/marioz",
-                "/public/images/JS-Project-5-001",
-                "/images/JS-Project-5-002",
-                "/images/JS-Project-5-003"
+                "/static/images/JS-Project-5-001",
+                "/static/images/JS-Project-5-002",
+                "/static/images/JS-Project-5-003"
             ]
         },
         {
@@ -32,9 +31,10 @@
             "live_link": "link to live version of project",
             "github_link": "https://github.com/jlayher/JS-Project-4.git",
             "image_urls": [
-                "public/images/JS-Project-4-001.png",
-                "public/images/JS-Project-4-002.png",
-                "public/images/JS-Project-4-001.png"            ]
+                "/static/images/JS-Project-4-001",
+                "/static/images/JS-Project-4-002",
+                "/static/images/JS-Project-4-003"            
+            ]
         },
         {
             "id": 2,
@@ -48,10 +48,9 @@
             "live_link": "link to live version of project",
             "github_link": "https://github.com/jlayher/JS-Project-3.git",
             "image_urls": [
-                "file-path-to-img-001",
-                "file-path-to-img-002",
-                "file-path-to-img-003",
-                "file-path-to-img-004"
+                "/static/images/JS-Project-3-001",
+                "/static/images/JS-Project-3-002",
+                "/static/images/JS-Project-3-003"
             ]
         }
     ]
