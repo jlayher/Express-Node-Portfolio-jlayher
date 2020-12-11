@@ -14,9 +14,10 @@
             "live_link": "link to live version of project",
             "github_link": "https://github.com/jlayher/JS-Project-5-Public-API-Requests",
             "image_urls": [
-                "public/images/JS-Project-5-001.png",
-                "/images/JS-Project-5-002.png",
-                "/images/JS-Project-5-003.png"
+                "public/images/marioz",
+                "/public/images/JS-Project-5-001",
+                "/images/JS-Project-5-002",
+                "/images/JS-Project-5-003"
             ]
         },
         {
