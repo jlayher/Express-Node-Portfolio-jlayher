@@ -1,0 +1,16 @@
+extends layout.pug
+
+block content 
+    .error  
+        h2 Oh man...  A Server Error Just Occured 
+        
+        h5 Please Navigate Back To The Home Page With The Link Below :D
+
+        br
+        br
+        br
+             //- Ex Credit:  Styled Retrun Link 
+        a.button(
+            style={color: 'blue', background: 'slategrey', display: 'block', align: 'center', height: '50px'}
+            href=`/` 
+            ) Back To The Home Page!
