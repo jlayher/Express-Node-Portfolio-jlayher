@@ -148,3 +148,22 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
+/* Exceeds Expectations CSS Below */
+
+.return-link{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: blue;
+  background-color: slategrey; 
+  text-align: center;
+  /*display: block; 
+  box-align: center; 
+  height: 50px;*/
+}
+
+.stack{
+  
+}
