@@ -151,19 +151,17 @@ a:hover{
 
 /* Exceeds Expectations CSS Below */
 
+/* Change Color of Link Text, and Set Background Color Around Button.  Used in page-not-found.pug, and error.pug*/
 .return-link{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: blue;
-  background-color: slategrey; 
-  text-align: center;
-  /*display: block; 
-  box-align: center; 
-  height: 50px;*/
+  color: rgb(3, 3, 197);
+  background-color: rgb(212, 214, 216); 
+  display: block; 
 }
 
 .stack{
-  
+  font-size: 60%;
+}
+/* applied a light amount of text shadow to h1 (my name) in the index.pug file*/
+.light-shadows{
+  text-shadow: 5px 5px 17px rgb(56, 56, 56);
 }
