@@ -1,15 +1,17 @@
 extends layout.pug
 
 block content 
+    //-Create Div with ".error" Class
     .error  
-        h2 Oh man...  A Server Error Just Occured 
+        //-Create Elements to Display Error Messages, and Add the "err-title-margins" Class
+        h2.err-title-margins Oh man...  A Server Error Just Occured 
         
-        h5 Please Navigate Back To The Home Page With The Link Below :D
+        h5.err-title-margins Please Navigate Back To The Home Page With The Link Below :D
         br
-        //-Added Error Stack 
-        span= err.stack
+        //-Added Error Stack With ".stack" Class
+        span.stack= err.stack
         br
         br
         br
-             //- Ex Credit:  Styled Return Link 
+        //- Style Return Link With the "return-link" Class
         a.button.return-link(href=`/`) Back To The Home Page!

@@ -158,10 +158,21 @@ a:hover{
   display: block; 
 }
 
+/* Adjust the display of the stack trace */
 .stack{
-  font-size: 60%;
+  font-size: 80%;
+  display: block;
+  margin-left: 15px;
+  margin-right: 15px;
 }
-/* applied a light amount of text shadow to h1 (my name) in the index.pug file*/
+
+/* Adjust the margins of the error messages */
+.err-title-margins{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* Applied a light amount of text shadow to the h1 (my name) in the index.pug file*/
 .light-shadows{
   text-shadow: 5px 5px 17px rgb(56, 56, 56);
 }

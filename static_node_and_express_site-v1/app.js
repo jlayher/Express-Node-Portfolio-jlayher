@@ -1,12 +1,14 @@
+//variables/requirements
 const express = require('express');
 const app = express();
 const {projects} = require('./data.json');
 const path = require('path');
 
+//set view engine
 app.set('view engine', 'pug');
 
+//serve static files
 app.use("/static", express.static(path.join(__dirname, "public")));
-app.use("/images", express.static(path.join(__dirname, "images")));
 
 //root route
 app.get('/', (req, res) => {
@@ -39,29 +41,30 @@ app.get('/project/:id', (req, res) => {
     }  
 });
 
-//Handle 404 Erros
+//Handle 404 Errors
 app.use((req, res, next) => {
     const err = new Error("404 Page Not Found");
     err.status = 404;
     next(err);
 });
 
-//Global Error Handler
+//Global Error Handler 
 app.use((err, req, res, next) =>{
     if (err.status === 404) {
-        console.log("404 Error.  Page Not Found");
         err.message = "An Error Occured!  The Page Wasn't found!";
         res.status(404);
         res.render('page-not-found', {err});
+        console.log(err.status + " Error: " + err.message);
     } else {
-        console.log("A Server Error Occurred! -__- Try Returning to the Home Page!");
         err.message = `Looks Like a Server Error Ocurred \\('0')/`;
         err.status = 500 || err.status;
         res.status(500);
         res.render('error', {err});
+        console.log(err.status + " Error: " + err.message);
     }
 });
 
+//Listen on Port 3000
 app.listen(3000, ()=>{
     console.log('This application is running on localhost:3000');
 });
