@@ -52,6 +52,41 @@
                 "/static/images/JS-Project-3-002",
                 "/static/images/JS-Project-3-003"
             ]
+        },
+        {
+            "id": 3,
+            "project_name": "List Pagination and Filtering Gallery",
+            "description": "An application that organizes a list of students into structured pages for easier viewing, and the ability to search for students in real time.",
+            "technologies": [
+                "JavaCript",
+                "HTML",
+                "CSS",
+                "DOM Manipulation"
+            ],
+            "live_link": "!!!!!",
+            "github_link": "https://github.com/jlayher/JS_Project_2_List_Pagination",
+            "image_urls": [
+                "/static/images/JS-Project-2-001",
+                "/static/images/JS-Project-2-002",
+                "/static/images/JS-Project-2-003"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "",
+            "description": "",
+            "technologies": [
+                "JavaCript",
+                "HTML",
+                "CSS"
+            ],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": [
+                "/static/images/JS-Project-5-001",
+                "/static/images/JS-Project-5-002",
+                "/static/images/JS-Project-5-003"
+            ]
         }
     ]
 }

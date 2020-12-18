@@ -3,11 +3,12 @@ extends layout.pug
 block content 
     //-Create Div with ".error" Class
     .error 
-        //-Create Elements to Display Error Messages, and Add the "err-title-margins" Class
+        //-Create Elements to Display Error Message and Status, and Add the "err-title-margins" Class
         h2.err-title-margins Looks Like This Page Doesn't Exist!  
         
         h5.err-title-margins Please Navigate Back To The Home Page With The Link Below :D
         br
+        h6.err-title-margins= `${err.status}: ${err.message}`
         //-Added Error Stack With ".stack" Class
         span.stack= err.stack
         br

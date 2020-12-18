@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 
 //about route
 app.get('/about', (req, res) =>{
-    res.render('about');
+    res.render('about1');
 });
 
 //error route
