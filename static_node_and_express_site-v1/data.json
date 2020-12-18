@@ -73,19 +73,19 @@
         },
         {
             "id": 4,
-            "project_name": "",
-            "description": "",
+            "project_name": "Random Quote Generator",
+            "description": "My first JavaScript Project.  The web page cycles randomly through a handful of random quotes, and background color changes.",
             "technologies": [
                 "JavaCript",
                 "HTML",
                 "CSS"
             ],
-            "live_link": "",
-            "github_link": "",
+            "live_link": "https://jlayher.github.io/Random-Quote-Generator-P1/",
+            "github_link": "https://github.com/jlayher/Random-Quote-Generator-P1",
             "image_urls": [
-                "/static/images/JS-Project-5-001",
-                "/static/images/JS-Project-5-002",
-                "/static/images/JS-Project-5-003"
+                "/static/images/JS-Project-1-001",
+                "/static/images/JS-Project-1-002",
+                "/static/images/JS-Project-1-003"
             ]
         }
     ]
