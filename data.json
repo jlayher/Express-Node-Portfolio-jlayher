@@ -56,7 +56,7 @@
         {
             "id": 3,
             "project_name": "List Pagination and Filtering Gallery",
-            "description": "An application that organizes a list of students into structured pages for easier viewing, and the ability to search for students in real time.",
+            "description": "An application that organizes a list of students into structured pages for easier viewing, and the ability to search for students dynamically.",
             "technologies": [
                 "JavaCript",
                 "HTML",
