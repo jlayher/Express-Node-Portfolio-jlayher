@@ -2,17 +2,20 @@
     "projects": [
         {
             "id": 0,
-            "project_name": "Public API Requests",
-            "description": "A site that generates an employee directory using third party API Requests",
+            "project_name": "Full-Stack React and REST API",
+            "description": "A Full-Stack “School Database” application utilizing a React client, SQLite database, and Express server.  The application employs basic sign up, sign in, and sign out functionality, and persists user credentials for signed in users as they navigate the site.  Signed in users are able to perform standard CRUD operations, but are restricted from updating and deleting courses created by other users.",
             "technologies": [
-                "JavaCript",
+                "JavaScript",
+                "React",
+                "React Router",
+                "Axios",
                 "Express",
-                "Pug",
-                "HTML",
-                "CSS"
+                "SQLite",
+                "Sequelize",
+                "Node.js"
             ],
-            "live_link": "https://jlayher.github.io/Js-Project-5-Final/",
-            "github_link": "https://github.com/jlayher/Js-Project-5-Final",
+            "live_link": "https://jlayher.github.io/Js-Project-5-Final/", 
+            "github_link": "https://github.com/jlayher/FS-React-REST-API",
             "image_urls": [
                 "/static/images/JS-Project-5-001",
                 "/static/images/JS-Project-5-002",
