@@ -3,7 +3,7 @@
         {
             "id": 0,
             "project_name": "Full-Stack React and REST API",
-            "description": "A Full-Stack “School Database” application utilizing a React client, SQLite database, and Express server.  The application employs basic sign up, sign in, and sign out functionality, and persists user credentials for signed in users as they navigate the site.  Signed in users are able to perform standard CRUD operations, but are restricted from updating and deleting courses created by other users.",
+            "description": "A Full-Stack “School Database” application utilizing a React client, SQLite database, and Express server.  The application employs basic sign up, sign in, and sign out functionality, and persists user credentials while navigating the site.  Signed in users are able to perform standard CRUD operations, but are restricted from updating and deleting courses created by other users.",
             "technologies": [
                 "JavaScript",
                 "React",
@@ -15,6 +15,7 @@
                 "Sequelize",
                 "Node.js"
             ],
+            "live_link": "null",
             "github_link": "https://github.com/jlayher/FS-React-REST-API",
             "image_urls": [
                 "/static/images/FS-REST-API-001",
@@ -38,6 +39,7 @@
                 "HTML",
                 "CSS"
             ],
+            "live_link": "null",
             "github_link": "https://github.com/jlayher/Library-DB-Express",
             "image_urls": [
                 "/static/images/Library-DB-001",
@@ -49,7 +51,7 @@
         {
             "id": 2,
             "project_name": "React Image Gallery & Flickr API",
-            "description": "This single page React application allows for users to search for photos using the Flickr API.  Implements tracking of browser history for more convenient site navigation, and generates 404-like errors for non-existent pages.  Running this application requires that you have your own Flickr API key.  For details on how to obtain a Flickr API key, and run the application, please follow the instructions in the ReadMe file.",
+            "description": "This single page React application allows for users to search for photos using the Flickr API.  Implements tracking of browser history for more convenient site navigation, and generates 404-like errors for non-existent pages.  Running this application requires that you have your own Flickr API key.  For details on how to obtain a Flickr API key, and run the application, please follow the instructions in the README file.",
             "technologies": [
                 "React",
                 "React Router",
@@ -59,6 +61,7 @@
                 "HTML",
                 "CSS"
             ],
+            "live_link": "null",
             "github_link": "https://github.com/jlayher/React-Gallery-App",
             "image_urls": [
                 "/static/images/Gallery-App-001",
@@ -88,7 +91,7 @@
         {
             "id": 4,
             "project_name": "Object Oriented Programming Game",
-            "description": "Phrase Hunter is a browser-based, word guessing game.  This web application utilizes JavaScript and object oriented programing to select a random phrase for the user to guess.  Users can interact with the application using their keyword, or by clicking letter on the onscreen keyboard.",
+            "description": "Phrase Hunter is a browser-based, word guessing game.  This web application utilizes JavaScript and object oriented programing to select a random phrase for the user to guess.  Users can interact with the application using their keyboard, or by clicking letter on the onscreen keyboard.",
             "technologies": [
                 "JavaCript",
                 "HTML",
@@ -106,7 +109,7 @@
         {
             "id": 5,
             "project_name": "Interactive Conference Form",
-            "description": "This interactive form application utilizes JavaScript for client side validation.  The application implements basic DOM manipulation techniques to create and remove HTML elements from the web page, and generates error messages when when a user tries to submit the form with missing information, or an invalid email address.",
+            "description": "This interactive form application utilizes JavaScript for client side validation.  The application implements basic DOM manipulation techniques to create and remove HTML elements from the web page, and generates error messages when a user tries to submit the form with missing information, or an invalid email address.",
             "technologies": [
                 "JavaCript",
                 "HTML",
