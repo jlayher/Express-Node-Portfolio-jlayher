@@ -9,86 +9,116 @@
                 "React",
                 "React Router",
                 "Axios",
+                "JSON",
                 "Express",
                 "SQLite",
                 "Sequelize",
                 "Node.js"
             ],
-            "live_link": "https://jlayher.github.io/Js-Project-5-Final/", 
             "github_link": "https://github.com/jlayher/FS-React-REST-API",
             "image_urls": [
-                "/static/images/JS-Project-5-001",
-                "/static/images/JS-Project-5-002",
-                "/static/images/JS-Project-5-003"
+                "/static/images/FS-REST-API-001",
+                "/static/images/FS-REST-API-002",
+                "/static/images/FS-REST-API-003",
+                "/static/images/FS-REST-API-004",
+                "/static/images/FS-REST-API-005"
             ]
         },
         {
             "id": 1,
-            "project_name": "Object-Oriented Programming 'Phrase Hunter' Game",
-            "description": "A browser based, word guessing game using JavaScript, and Object-Oriented Programming",
+            "project_name": "Library Database CRUD Application",
+            "description": "This dynamic web application allows users to list, add, update, and delete books from a SQLite database, using an intuitive client-side interface.",
             "technologies": [
                 "JavaScript",
+                "Node.js",
+                "Express",
+                "SQLite",
+                "Sequelize",
+                "Pug/Jade",
                 "HTML",
                 "CSS"
             ],
-            "live_link": "https://jlayher.github.io/JS-Project-4/",
-            "github_link": "https://github.com/jlayher/JS-Project-4.git",
+            "github_link": "https://github.com/jlayher/Library-DB-Express",
             "image_urls": [
-                "/static/images/JS-Project-4-001",
-                "/static/images/JS-Project-4-002",
-                "/static/images/JS-Project-4-003"            
+                "/static/images/Library-DB-001",
+                "/static/images/Library-DB-002",
+                "/static/images/Library-DB-003",
+                "/static/images/Library-DB-004"
             ]
         },
         {
             "id": 2,
-            "project_name": "Interactive Form",
-            "description": "An interactice form for client-side users",
+            "project_name": "React Image Gallery & Flickr API",
+            "description": "This single page React application allows for users to search for photos using the Flickr API.  Implements tracking of browser history for more convenient site navigation, and generates 404-like errors for non-existent pages.  Running this application requires that you have your own Flickr API key.  For details on how to obtain a Flickr API key, and run the application, please follow the instructions in the ReadMe file.",
             "technologies": [
+                "React",
+                "React Router",
                 "JavaScript",
+                "Axios",
+                "JSX",
                 "HTML",
                 "CSS"
             ],
-            "live_link": "https://jlayher.github.io/JS-Project-3/",
-            "github_link": "https://github.com/jlayher/JS-Project-3.git",
+            "github_link": "https://github.com/jlayher/React-Gallery-App",
             "image_urls": [
-                "/static/images/JS-Project-3-001",
-                "/static/images/JS-Project-3-002",
-                "/static/images/JS-Project-3-003"
+                "/static/images/Gallery-App-001",
+                "/static/images/Gallery-App-002",
+                "/static/images/Gallery-App-003"
             ]
         },
         {
             "id": 3,
-            "project_name": "List Pagination and Filtering Gallery",
-            "description": "An application that organizes a list of students into structured pages for easier viewing, and the ability to search for students dynamically.",
+            "project_name": "Employee Directory AJAX Application",
+            "description": "This web application utilizes AJAX and the Fetch API to get a list of random user data from the Random User Generator API, and display the data as a client-side employee directory.  Selecting a user generates a modal window, displaying additional user information, and navigation buttons to cycle through the list of users.  The site also implements a dynamic search function for the instantaneous retrieval of matched users.",
+            "technologies": [
+                "JavaCript",
+                "AJAX",
+                "Fetch API",
+                "HTML",
+                "CSS"
+            ],
+            "live_link": "https://jlayher.github.io/Employee-Directory-AJAX-App/",
+            "github_link": "https://github.com/jlayher/Employee-Directory-AJAX-App",
+            "image_urls": [
+                "/static/images/Employee-Directoy-001",
+                "/static/images/Employee-Directoy-002",
+                "/static/images/Employee-Directoy-003"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "Object Oriented Programming Game",
+            "description": "Phrase Hunter is a browser-based, word guessing game.  This web application utilizes JavaScript and object oriented programing to select a random phrase for the user to guess.  Users can interact with the application using their keyword, or by clicking letter on the onscreen keyboard.",
+            "technologies": [
+                "JavaCript",
+                "HTML",
+                "CSS",
+                "OOP"
+            ],
+            "live_link": "https://jlayher.github.io/Object-Oriented-Programming-Game/",
+            "github_link": "https://github.com/jlayher/Object-Oriented-Programming-Game",
+            "image_urls": [
+                "/static/images/OOP-App-001",
+                "/static/images/OOP-App-002",
+                "/static/images/OOP-App-003"
+            ]
+        },
+        {
+            "id": 5,
+            "project_name": "Interactive Conference Form",
+            "description": "This interactive form application utilizes JavaScript for client side validation.  The application implements basic DOM manipulation techniques to create and remove HTML elements from the web page, and generates error messages when when a user tries to submit the form with missing information, or an invalid email address.",
             "technologies": [
                 "JavaCript",
                 "HTML",
                 "CSS",
                 "DOM Manipulation"
             ],
-            "live_link": "https://jlayher.github.io/JS_Project_2_List_Pagination/",
-            "github_link": "https://github.com/jlayher/JS_Project_2_List_Pagination",
+            "live_link": "https://jlayher.github.io/Interactive-Form/",
+            "github_link": "https://github.com/jlayher/Interactive-Form",
             "image_urls": [
-                "/static/images/JS-Project-2-001",
-                "/static/images/JS-Project-2-002",
-                "/static/images/JS-Project-2-003"
-            ]
-        },
-        {
-            "id": 4,
-            "project_name": "Random Quote Generator",
-            "description": "My first JavaScript Project.  The web page cycles randomly through a handful of random quotes, and background color changes.",
-            "technologies": [
-                "JavaCript",
-                "HTML",
-                "CSS"
-            ],
-            "live_link": "https://jlayher.github.io/Random-Quote-Generator-P1/",
-            "github_link": "https://github.com/jlayher/Random-Quote-Generator-P1",
-            "image_urls": [
-                "/static/images/JS-Project-1-001",
-                "/static/images/JS-Project-1-002",
-                "/static/images/JS-Project-1-003"
+                "/static/images/FS-Form-001",
+                "/static/images/FS-Form-002",
+                "/static/images/FS-Form-003"
             ]
         }
     ]
