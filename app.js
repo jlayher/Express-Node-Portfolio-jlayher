@@ -4,7 +4,7 @@ const app = express();
 const {projects} = require('./data.json');
 const path = require('path');
 
-//port
+//set port
 let port = process.env.PORT || 3000;
 
 //set view engine
@@ -71,8 +71,3 @@ app.listen(port, () => {
     console.log(`This application is listening on port http://localhost:${port}`)
 });
 
-//old code
-//Listen on Port 3000
-// app.listen(3000, ()=>{
-//     console.log('This application is running on localhost:3000');
-// });
