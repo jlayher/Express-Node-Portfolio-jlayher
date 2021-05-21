@@ -59,7 +59,7 @@ app.use((err, req, res, next) =>{
         res.render('page-not-found', {err});
         console.log(err.status + " Error: " + err.message);
     } else {
-        err.message = `Looks Like a Server Error Ocurred \\('0')/`;
+        err.message = `Looks Like a Server Error Ocurred!`;
         err.status = 500 || err.status;
         res.status(500);
         res.render('error', {err});

@@ -3,7 +3,7 @@
         {
             "id": 0,
             "project_name": "Full-Stack React and REST API",
-            "description": "A Full-Stack “School Database” application utilizing a React client, SQLite database, and Express server.  The application employs basic sign up, sign in, and sign out functionality, and persists user credentials while navigating the site.  Signed in users are able to perform standard CRUD operations, but are restricted from updating and deleting courses created by other users.",
+            "description": "A Full-Stack “School Database” application utilizing a React client, SQLite database, and Express server.  The application employs sign-up, sign-in, and sign-out functionality, and persists user credentials while navigating the site.  Signed-in users are able to perform standard CRUD operations, but are restricted from updating and deleting courses created by other users.",
             "technologies": [
                 "JavaScript",
                 "React",
@@ -72,7 +72,7 @@
         {
             "id": 3,
             "project_name": "Employee Directory AJAX Application",
-            "description": "This web application utilizes AJAX and the Fetch API to get a list of random user data from the Random User Generator API, and display the data as a client-side employee directory.  Selecting a user generates a modal window, displaying additional user information, and navigation buttons to cycle through the list of users.  The site also implements a dynamic search function for the instantaneous retrieval of matched users.",
+            "description": "This web application utilizes AJAX and the Fetch API to get a list of random user data from the Random User Generator API, and display the data as a client-side employee directory.  Selecting a user generates a modal window, displaying additional user information, and navigation buttons to cycle through the list of users.  This site also implements a dynamic search function for the instantaneous retrieval of matched users.",
             "technologies": [
                 "JavaCript",
                 "AJAX",
