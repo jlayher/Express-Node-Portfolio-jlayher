@@ -1,23 +1,7 @@
-# JS-Project-6
- Static Node.js and Express Site
--John Layher
+# Express, Pug, Node.js Portfolio Site
 
-I am hoping to meet the requirements for "Exceeds Expectations" and would prefer to have my project rejected if my current work does not meet the requirements.
+This application uses Node.js, the back-end framework Express, and Pug Templating to create a fully-functional portfolio website.  Users can read descriptions, view photos, 
+and check out live links to a number of my previous JavaScript/Web Design projects.  The "about" page contains a short bio, and links to contact me, view my code on github, connect with 
+me on LinkedIn, and provides a direct download to my resume.   
 
-I don't wish to currently link to any of my personal profiles for Twitter or LinkedIn, nor do I wish to publish my phone# or email at this time.  I asked
-one of my Support Specialists on Slack about this, and I was told it would be fine to put placeholder information for the contact section of the "/about" page
-and that I should link to the home pages of Twitter and LinkedIn, instead of linking to my personal accounts.  
-
-
-
-
-Style Changes:
-    - The following style changes are located at the bottom of the style.css file
-        .return-link
-            changes display type to 'block', and changes both the text and background color of the anchor ('Back To The Home Page!') button, in both error.pug and page-not-found.pug
-        .stack
-            decreases the text size, sets the display to 'block', and adds slight margins to the stack text on the span elements in both error.pug and page-not-found.pug
-        .err-title-margins
-            applies slight left and right margins to the h2, h5, and h6 elements in both error.pug and page-not-found.pug
-        .light-shadows
-            used to apply a light text-shadow to the h1 element, displaying my name, on the home page
+To run this application, first run npm install in the console.  Then, type "npm start" or "nodemon" into the console to run the app on PORT 3000.  You can view the app in your browser by visiting http://localhost:3000 or visit the live site at http://jlayher-portfolio.herokuapp.com 
