@@ -2,7 +2,7 @@
     "projects": [
         {
             "id": 0,
-            "project_name": "Full-Stack React and REST API",
+            "project_name": "Full-Stack React and REST API (School Database)",
             "description": "A Full-Stack “School Database” application utilizing a React client, SQLite database, and Express server.  The application employs sign-up, sign-in, and sign-out functionality, and persists user credentials while navigating the site.  Signed-in users are able to perform standard CRUD operations, but are restricted from updating and deleting courses created by other users.",
             "technologies": [
                 "JavaScript",
