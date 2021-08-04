@@ -19,11 +19,14 @@
             "live_link": "null",
             "github_link": "https://github.com/jlayher/FS-React-REST-API",
             "image_urls": [
-                "/static/images/FS-REST-API-001",
-                "/static/images/FS-REST-API-002",
-                "/static/images/FS-REST-API-003",
-                "/static/images/FS-REST-API-004",
-                "/static/images/FS-REST-API-005"
+                "/static/images/JS-Project-10-001",
+                "/static/images/JS-Project-10-002",
+                "/static/images/JS-Project-10-003",
+                "/static/images/JS-Project-10-004",
+                "/static/images/JS-Project-10-005",
+                "/static/images/JS-Project-10-006",
+                "/static/images/JS-Project-10-007",
+                "/static/images/JS-Project-10-008"
             ]
         },
         {
@@ -43,16 +46,18 @@
             "live_link": "null",
             "github_link": "https://github.com/jlayher/Library-DB-Express",
             "image_urls": [
-                "/static/images/Library-DB-001",
-                "/static/images/Library-DB-002",
-                "/static/images/Library-DB-003",
-                "/static/images/Library-DB-004"
+                "/static/images/JS-Project-8-001",
+                "/static/images/JS-Project-8-002",
+                "/static/images/JS-Project-8-003",
+                "/static/images/JS-Project-8-004",
+                "/static/images/JS-Project-8-005",
+                "/static/images/JS-Project-8-006"
             ]
         },
         {
             "id": 2,
             "project_name": "React Image Gallery & Flickr API",
-            "description": "This single page React application allows for users to search for photos using the Flickr API.  Implements tracking of browser history for more convenient site navigation, and generates 404-like errors for non-existent pages.  Running this application requires that you have your own Flickr API key.  For details on how to obtain a Flickr API key, and run the application, please follow the instructions in the README file.",
+            "description": "This single page React application allows for users to search for photos using the Flickr API.  Implements tracking of browser history for more convenient site navigation, and generates 404-like errors for non-existent pages.  Running this application requires that you have your own Flickr API key.  For details on how to obtain a Flickr API key and run the application, please follow the instructions in the README file.",
             "technologies": [
                 "React",
                 "React Router",
@@ -65,9 +70,10 @@
             "live_link": "null",
             "github_link": "https://github.com/jlayher/React-Gallery-App",
             "image_urls": [
-                "/static/images/Gallery-App-001",
-                "/static/images/Gallery-App-002",
-                "/static/images/Gallery-App-003"
+                "/static/images/JS-Project-7-001",
+                "/static/images/JS-Project-7-002",
+                "/static/images/JS-Project-7-003",
+                "/static/images/JS-Project-7-Full"
             ]
         },
         {
@@ -84,9 +90,10 @@
             "live_link": "https://jlayher.github.io/Employee-Directory-AJAX-App/",
             "github_link": "https://github.com/jlayher/Employee-Directory-AJAX-App",
             "image_urls": [
-                "/static/images/Employee-Directoy-001",
-                "/static/images/Employee-Directoy-002",
-                "/static/images/Employee-Directoy-003"
+                "/static/images/JS-Project-5-001",
+                "/static/images/JS-Project-5-002",
+                "/static/images/JS-Project-5-003",
+                "/static/images/JS-Project-5-004"
             ]
         },
         {
@@ -102,9 +109,11 @@
             "live_link": "https://jlayher.github.io/Object-Oriented-Programming-Game/",
             "github_link": "https://github.com/jlayher/Object-Oriented-Programming-Game",
             "image_urls": [
-                "/static/images/OOP-App-001",
-                "/static/images/OOP-App-002",
-                "/static/images/OOP-App-003"
+                "/static/images/JS-Project-4-001",
+                "/static/images/JS-Project-4-002",
+                "/static/images/JS-Project-4-003",
+                "/static/images/JS-Project-4-004",
+                "/static/images/JS-Project-4-005"
             ]
         },
         {
@@ -120,9 +129,10 @@
             "live_link": "https://jlayher.github.io/Interactive-Form/",
             "github_link": "https://github.com/jlayher/Interactive-Form",
             "image_urls": [
-                "/static/images/FS-Form-001",
-                "/static/images/FS-Form-002",
-                "/static/images/FS-Form-003"
+                "/static/images/JS-Project-3-001",
+                "/static/images/JS-Project-3-002",
+                "/static/images/JS-Project-3-003",
+                "/static/images/JS-Project-3-Full"
             ]
         }
     ]
